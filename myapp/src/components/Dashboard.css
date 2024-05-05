@@ -1,1 +1,53 @@
-
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+  .task-summary,
+  .task-list {
+    width: 80%;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: aliceblue;
+  }
+  
+  .task-summary {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .summary-card {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .task-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .completed {
+    font-weight: bold;
+    color: green;
+  }
+  
